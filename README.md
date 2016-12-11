@@ -1,2 +1,3 @@
 # vcontrold-docker
-Dockerfile for vcontrold
+
+Dockerfile for vcontrold (see https://openv.wikispaces.com/vcontrold).
