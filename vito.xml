@@ -89,8 +89,6 @@
             <description>Ermittle den Status der Speicherladepumpe</description>
         </command>
 
-
-
         <command name='getTempWW' protocmd='getaddr'>
             <addr>0812</addr>
             <len>2</len>
