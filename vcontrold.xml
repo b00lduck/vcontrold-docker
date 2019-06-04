@@ -3,7 +3,7 @@
   <unix>
      <config>
 	<serial>
-		<tty>/dev/ttyUSB1</tty>
+		<tty>/dev/ttyUSB0</tty>
 	</serial>
 	<net>
 		<port>3002</port>
@@ -190,10 +190,11 @@
 	   <enum text='UNKNOWN'/>
 	</unit>
 	<unit name='DeviceType'>
-           <abbrev>DT</abbrev>
-           <type>enum</type>
-		       <enum bytes='20 4D' text='V200-S ID=204D Protokoll:P300'/>
-           <enum text='UNKNOWN'/>
+            <abbrev>DT</abbrev>
+            <type>enum</type>
+            <enum bytes='20 4D' text='V200-S ID=204D Protokoll:P300'/>
+            <enum bytes='20 CB' text='VScotHO1'/>
+	    <enum text='UNKNOWN'/>
 	</unit>
 	<unit name='Brenner Stunden'>
            <abbrev>BH</abbrev>
