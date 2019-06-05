@@ -1,8 +1,8 @@
-FROM balenalib/rpi-raspbian:jessie
+FROM debian:stable-slim
 
 RUN apt-get update && \
     apt-get upgrade && \
-    apt-get install build-essential subversion automake autoconf telnet libxml2-dev && \
+    apt-get install -y build-essential subversion automake autoconf telnet libxml2-dev && \
     mkdir openv && \
     cd openv && \
     svn checkout svn://svn.code.sf.net/p/vcontrold/code/trunk vcontrold-code && \
