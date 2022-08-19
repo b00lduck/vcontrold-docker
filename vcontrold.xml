@@ -2,6 +2,8 @@
 <V-Control xmlns:vcontrol="http://www.openv.de/vcontrol">
   <unix>
      <config>
+        <username>root</username>
+        <groupname>root</groupname>
 	<serial>
 		<tty>/dev/ttyUSB0</tty>
 	</serial>
